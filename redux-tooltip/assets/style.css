@@ -1,0 +1,10 @@
+body {
+  color: #333;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 200;
+}
+
+.target {
+  text-decoration: underline;
+  cursor: pointer;
+}

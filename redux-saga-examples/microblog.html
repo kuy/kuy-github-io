@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA5OwYwamAjRHZ7mCCDT9J0gxR2CJ9aQJE",
+    authDomain: "redux-saga-chat.firebaseapp.com",
+    databaseURL: "https://redux-saga-chat.firebaseio.com",
+    storageBucket: "redux-saga-chat.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+
+<title>Microblog</title>
+</head>
+<body>
+  <div id="container"></div>
+  <script src="assets/microblog.bundle.js"></script>
+</body>
+</html>
